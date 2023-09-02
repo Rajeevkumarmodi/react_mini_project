@@ -1,0 +1,50 @@
+.form_container {
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form_heading {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_checkbox {
+    display: flex;
+    gap: 10px;
+}
+
+/* Register Button */
+
+.registerBtn {
+    margin-block: 20px 10px;
+    width: 90%;
+    padding-block: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(68, 68, 242);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.registerBtn:hover {
+    background-color: rgb(8, 8, 126);
+}
+
+.already {
+    font-size: 14px;
+    color: rgb(106, 103, 103);
+    text-align: center;
+}
+
+.loginText {
+    color: blue;
+    cursor: pointer;
+}
